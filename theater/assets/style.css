@@ -1,6 +1,55 @@
 body {
-    background-color: #fff;
+    background-color: #ebeff1;
     color: #000;
     margin: 0;
     font-family: arial;
+}
+
+
+.jumbotron {
+    background: url("../assets/images/curtain.jpg") center fixed;
+    background-size: cover;
+    color:#fff;
+ 
+    margin-bottom: 0;
+}
+
+
+
+/*navigation */
+.navbar {
+    font-weight: 400;
+    font-family: 'Fjalla One', sans-serif;
+margin-bottom: 0;
+    background-color:#333;
+}
+.navbar-custom .navbar-nav > li > a:hover, .navbar-custom .navbar-nav > li > a:focus {
+    background:#222;
+    color: #999;
+    text-shadow: 0;
+   
+}
+.navbar-nav > li > a:hover, .navbar-custom .navbar-nav > li > a:focus {
+    background:#222;
+    color: #999;
+    text-shadow: 0;
+   
+}
+.navbar-custom {
+    background: #333;
+    color:#fff;
+    border-radius: 0;
+    
+}
+.navbar-custom a {
+    color:#fff;
+    font-size: 16px;
+}
+.navbar-custom li {
+    padding: 0 15px 0 15px;
+}
+
+.content {
+    background-color:#fff;
+ 
 }
